@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Underdog&display=swap");
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+body {
+	line-height: 1;
+}
+/* ------------------ */
+
+body {
+	background: url(https://i.pinimg.com/564x/71/07/55/71075598ad1c3779d4c5bcf92fe7a278.jpg) 0 0 repeat;
+	color: #315f90;
+	/*   font-family: 'Amatic SC', cursive; */
+	font-family: "Underdog", cursive;
+	font-size: 16px;
+}
+
+.container {
+	max-width: 1400px;
+	margin: 20px auto;
+	padding: 10px;
+	box-shadow: 1px 1px 7px 1px #000;
+	background-color: #fff;
+	border-radius: 5px;
+}
+
+h4 {
+	font-weight: 700;
+}
+/* HEADER */
+
+.header {
+	margin-bottom: 20px;
+}
+
+.header .container {
+	margin-top: 80px;
+}
+
+.header__inner {
+	padding: 20px;
+	background: url(https://i.pinimg.com/236x/49/37/70/493770b90bf67cb5a5c0b7970d0a3012.jpg) 0 0 / auto repeat;
+}
+
+.menu__list {
+	text-align: right;
+}
+
+.menu__list li {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.menu__btn {
+	max-width: 250px;
+	display: block;
+	color: #315f90;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding: 15px 20px;
+	box-shadow: 1px 1px 7px 1px #000;
+	background: url(https://img.icons8.com/plasticine/100/4a90e2/black-cat.png) 5px center/ 17% no-repeat,
+		url(https://i.pinimg.com/236x/e4/07/39/e40739ecfa5bda92b8e7ad5b0b0478e7.jpg) 0 0 / 150% no-repeat;
+}
+
+.menu__btn:hover {
+	background: url(https://img.icons8.com/plasticine/100/4a90e2/black-cat.png) 5px center/ 17% no-repeat,
+		url(https://i.pinimg.com/236x/ee/65/cd/ee65cde1b3bffcd29e5fa108e538bbd0.jpg) center/ auto no-repeat, #1f1e35;
+}
+
+.menu__btn:active {
+	color: #a0aea1;
+}
+
+.menu__btn:visited {
+	color: #6b33c6;
+}
+
+.menu__btn span {
+	display: inline-block;
+	padding: 0 0 0 20px;
+}
+
+/* MAIN */
+
+.state {
+	background: url(https://i.pinimg.com/236x/96/dc/de/96dcde921d80847e184e81e5c8f3a20c.jpg) center/ auto repeat;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.title {
+	background: url(https://i.pinimg.com/236x/e4/07/39/e40739ecfa5bda92b8e7ad5b0b0478e7.jpg) center/ auto repeat;
+	padding: 10px;
+	margin: 0 0 20px 0;
+	box-shadow: 1px 1px 7px 1px #000;
+	text-align: center;
+	font-size: 22px;
+}
+
+.subtitle {
+	padding: 10px;
+	font-size: 18px;
+	display: inline-block;
+	border: 2px dashed #315f90;
+	margin: 0 0 20px 0;
+	font-weight: 700;
+}
+
+/* HOVER */
+
+.hover-block__one {
+	height: 200px;
+	margin: 20px;
+	box-shadow: 1px 1px 7px 1px #000;
+	background: url(https://i.pinimg.com/236x/c6/c5/6c/c6c56c80d59c2c4d74fabac8bb2f5ca0.jpg) 0 0 / auto repeat;
+}
+
+.hover-block__two {
+	height: 200px;
+	margin: 20px;
+	box-shadow: 1px 1px 7px 1px #000;
+	background: url(https://i.pinimg.com/564x/bc/f1/81/bcf181f304ea483d595116fbfb58da6c.jpg) 0 0 / auto repeat;
+	opacity: 0.2;
+}
+
+.visability-block {
+	height: 200px;
+	margin: 20px;
+	box-shadow: 1px 1px 7px 1px #000;
+	background: url(https://i.pinimg.com/564x/bc/f1/81/bcf181f304ea483d595116fbfb58da6c.jpg) 0 0 / auto repeat;
+	visibility: hidden;
+}
+
+.hover-block__one:hover {
+	background: url(https://i.pinimg.com/236x/95/cc/00/95cc0074b1d29f1b8421f3c1e8b110e5.jpg) 0 0 / auto repeat;
+}
+
+.hover-block__two:hover {
+	opacity: 1;
+}
+
+.hover-block__three-inner:hover .visability-block {
+	background: url(https://i.pinimg.com/236x/4f/45/7b/4f457bf17bbef3629ccfe6af326e3b44.jpg) 0 0 / auto repeat;
+	visibility: visible;
+}
+
+/* ACTIVE */
+.active-block {
+	height: 200px;
+	margin: 20px;
+	box-shadow: 1px 1px 7px 1px #000;
+	background: url(https://i.pinimg.com/236x/00/55/04/005504033b095fca1dba7606a4998b10.jpg) 0 0 / auto repeat;
+}
+
+.active-block:active {
+	background: url(https://i.pinimg.com/236x/b6/79/4e/b6794e85a3e47513d9be9c9922ab9197.jpg) 0 0 / auto repeat;
+}
+
+/* VISITED */
+
+.visited-block {
+	display: block;
+	height: 200px;
+	margin: 20px;
+	box-shadow: 1px 1px 7px 1px #000;
+	background-color: #1358a1b2;
+}
+
+.visited-block:visited {
+	background-color: #81bae0a6;
+}
+
+/* FOCUS */
+
+.focus-block {
+	display: block;
+	height: 200px;
+	margin: 20px;
+	box-shadow: 1px 1px 7px 1px #000;
+	background: url(https://i.pinimg.com/236x/4a/5d/74/4a5d74d1c9a18a62f91962e84c6a1be8.jpg) 0 0 / auto repeat;
+}
+
+.focus-block:focus {
+	outline: 2px solid #315f90;
+}
+
+/* TARGET */
+
+.target__link {
+	display: inline-block;
+	color: #315f90;
+	text-transform: uppercase;
+	font-weight: 700;
+	box-shadow: 1px 1px 7px 1px #000;
+	background: url(https://i.pinimg.com/236x/7e/c3/9f/7ec39fb7e2774b017bc1a78ea45661da.jpg) 0 0 / auto repeat;
+	padding: 10px 15px;
+	margin: 20px;
+}
+
+.target__link:hover {
+	color: #000;
+	background: url(https://i.pinimg.com/236x/73/c8/d9/73c8d99d26021179bbf23f61532b34bf.jpg) 0 0 / auto repeat;
+}
+
+.target__link:active {
+	color: #a0aea1;
+}
+
+.target-block__one {
+	display: none;
+	height: 200px;
+	margin: 20px;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 1px 1px 7px 1px #000;
+	background: url(https://i.pinimg.com/236x/cb/5e/44/cb5e4464357feaedbb4aa6215fb126eb.jpg) 0 0 / auto repeat;
+}
+
+.target-block__one:target {
+	display: block;
+}
+
+/* POSITION */
+
+.position {
+	background: url(https://i.pinimg.com/236x/05/fc/4f/05fc4fa27a4b7cbcadb7bf76a461d61a.jpg) center/ auto repeat;
+	text-align: center;
+}
+
+.position-first p,
+.position-last p,
+.position-nth p,
+.position-odd p,
+.position-even p {
+	height: 200px;
+	margin: 20px;
+	box-shadow: 1px 1px 7px 1px #000;
+	background: url(https://i.pinimg.com/236x/40/44/a4/4044a412b99d4d06e5bb28ab505ea69b.jpg) 0 0 / auto repeat;
+}
+
+/* FERST */
+
+.position-first p:first-child {
+	background: url(https://i.pinimg.com/236x/5c/f1/67/5cf167d7632411614b878e2f55f373ba.jpg) 0 0 / auto repeat;
+}
+
+/* LAST */
+
+.position-last p:last-child {
+	background: url(https://i.pinimg.com/236x/5c/f1/67/5cf167d7632411614b878e2f55f373ba.jpg) 0 0 / auto repeat;
+}
+
+/* NTH */
+
+.position-nth p:nth-child(3) {
+	background: url(https://i.pinimg.com/236x/5c/f1/67/5cf167d7632411614b878e2f55f373ba.jpg) 0 0 / auto repeat;
+}
+
+/* ODD */
+
+.position-odd p:nth-child(odd) {
+	background: url(https://i.pinimg.com/236x/5c/f1/67/5cf167d7632411614b878e2f55f373ba.jpg) 0 0 / auto repeat;
+}
+
+/* EVEN */
+
+.position-even p:nth-child(even) {
+	background: url(https://i.pinimg.com/236x/5c/f1/67/5cf167d7632411614b878e2f55f373ba.jpg) 0 0 / auto repeat;
+}
+
+/* ELEMENTS */
+
+.element .title {
+	color: #315f90;
+	box-shadow: 1px 1px 7px 1px #000;
+	background: url(https://i.pinimg.com/236x/06/02/71/060271821559a07a8bcd788ef29bb642.jpg) center/ auto repeat;
+}
+
+.element .subtitle {
+	color: #315f90;
+	border: 2px dashed #315f90;
+}
+
+.element {
+	background: url(https://i.pinimg.com/236x/6a/7b/35/6a7b356bb864bdb207d50a9baef502a3.jpg) center/ auto repeat;
+	text-align: center;
+	padding: 0 0 20px 0;
+}
+
+.element-line p,
+.element-letter p,
+.element-before p,
+.element-after p {
+	color: #315f90;
+	font-size: 20px;
+	height: 200px;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 1px 1px 7px 1px #000;
+	background: url(https://i.pinimg.com/236x/ab/95/65/ab9565b78463d300ee8932bde3136714.jpg) center/ auto repeat;
+}
+
+/* LINE */
+
+.element-line p::first-line {
+	background-color: #c9cdfc;
+}
+
+/* LETTER */
+
+.element-letter p::first-letter {
+	background-color: #c9cdfc;
+}
+
+/* BEFORE */
+
+.element-before::before {
+	content: "";
+	display: block;
+	width: 50%;
+	height: 10px;
+	background-color: #c9cdfc;
+	margin: 0 0 0 20px;
+}
+
+/* AFTER */
+
+.element-after::after {
+	content: "";
+	display: block;
+	width: 50%;
+	height: 10px;
+	background-color: #c9cdfc;
+	margin: 0 0 0 20px;
+}
+
+/* FOOTER */
+
+.footer {
+	margin-bottom: 20px;
+}
+
+.footer .container {
+	margin-bottom: 80px;
+}
+
+.footer__inner {
+	padding: 20px;
+	background: url(https://i.pinimg.com/236x/2e/c0/cb/2ec0cbd83ed2dd4190591470a1f45277.jpg) 0 0 / auto repeat;
+}
